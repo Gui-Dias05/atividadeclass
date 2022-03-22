@@ -5,9 +5,9 @@ echo"<a href='Estado.class.php'><button>Estado</button></a><br><br>\n";
 
 class cidade{
 
-    public $id;
-    public $nome;
-    public $estadoid;
+    private $id;
+    private $nome;
+    private $estadoid;
 
     public function __construct($id, $nm, $eid){
         echo  "<br>";
